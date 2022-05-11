@@ -1387,7 +1387,7 @@ main {
         margin-right: 10px;
     }
     .search_form {
-        width: 60%;
+        width: 70%;
     }
     .user_actions {
         margin-left: 15px;
@@ -1570,6 +1570,7 @@ main {
     .search_micro,
     .search_btn,
     .prem_offer,
+    .head_container>a,
     aside {
         display: none;
     }
@@ -1578,21 +1579,22 @@ main {
     }
     .head_container {
         justify-content: center;
+        margin: 0 15px;
     }
     .menu_btn {
-        margin: 0 0 0 10px;
+        margin: 0 15px 0 0px;
     }
     .search_form {
-        width: 70%;
+        width: 90%;
     }
     .user_actions {
         min-width: 0px;
-        margin: 0;
+        margin: 0 15px 0 10px;
     }
     .user_acc,
     .user_orders {
         display: block;
-        margin-left: 5px;
+        margin-left: 15px;
     }
     .search_form_container {
         width: 100%;
