@@ -1390,7 +1390,7 @@ main {
         width: 70%;
     }
     .user_actions {
-        margin-left: 15px;
+        margin: 0 0 0 15px;
     }
     .user_acc,
     .user_orders {
