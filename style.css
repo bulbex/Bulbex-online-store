@@ -1150,8 +1150,12 @@ main {
     height: 100%;
 }
 
+.main_slider_btn {
+    transition: .2s ease-in-out;
+}
+
 .main_slider_btn:hover {
-    color: #1F75FE;
+    color: #fa3e3e;
 }
 
 
