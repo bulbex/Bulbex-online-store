@@ -7,6 +7,7 @@
     <title>Bulbex</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
@@ -1439,23 +1440,19 @@
                         <p>© Online store «Bulbex™»<br>2001–2022</p>
             </aside>
             <main>
-                <div class="main_slider">
-                    <button class="main_slider_btn" id="back">
-                        <i class="fal fa-angle-left"></i>
-                    </button>
-                    <div class="main_slider_img_container" id="slider_img_container">
-                        <img src="images/slider_img_1.png" alt="">
-                        <img src="images/slider_img_2.png" alt="">
-                        <img src="images/slider_img_3.png" alt="">
-                        <img src="images/slider_img_4.png" alt="">
-                        <img src="images/slider_img_5.png" alt="">
-                        <img src="images/slider_img_6.png" alt="">
-                        <img src="images/slider_img_7.png" alt="">
-                        <img src="images/slider_img_8.png" alt="">
+                <div class="main_slider swiper">
+                    <div class="main_slider_wrapper swiper-wrapper" id="slider_img_container">
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_1.png" alt=""></div>
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_2.png" alt=""></div>
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_3.png" alt=""></div>
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_4.png" alt=""></div>
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_5.png" alt=""></div>
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_6.png" alt=""></div>
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_7.png" alt=""></div>
+                        <div class="swiper-slide main_slider_slide"><img src="images/slider_img_8.png" alt=""></div>
                     </div>
-                    <button class="main_slider_btn" id="forward">
-                        <i class="fal fa-angle-right"></i>
-                    </button>
+                    <div class="swiper-button-prev main_slider_btn"></div>
+                    <div class="swiper-button-next main_slider_btn"></div>
                 </div>
                 <button class="main_mobile_catalog_btn" id="mobile_catalog_btn">
                     <i class="fal fa-box-full"></i>
@@ -4172,6 +4169,7 @@
         </div>
     </div>
     </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 
